@@ -1,6 +1,6 @@
 const name = 'генератор захисного поля'
 let price = 1000;
-console.log(Обрано ${name}, ціна за штуку ${price});
+// console.log(Обрано ${name}, ціна за штуку ${price});
 
 
 const total = 100;
