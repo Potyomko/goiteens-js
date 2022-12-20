@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">   
+    <link rel="stylesheet" href="./20.12.22.css">
 </head>
 <body>
     <!-- <ul class="site-nav">
@@ -29,7 +31,7 @@
       <p class="product__descr">Опис</p>
       <p product__pridct>Ціна: 1111 кредитів</p>
     </article> -->
-    <label>
+    <!-- <label>
       Ім'я
       <input type="text" class="js-input" />
     </label>
@@ -39,7 +41,30 @@
         <input type="checkbox" class="js-license" />
         Приймаю умови договору
       </label>
-    </p>
+    </p> -->
+    <button class="button" data-action="open-modal">Відкрити модалку</button>
+
+    <div class="backdrop js-backdrop">
+      <div class="modal">
+        <h2>Modal window</h2>
+        <p>
+          In user interface design for computer applications, a modal window is
+          a graphical control element subordinate to an application's main
+          window. It creates a mode that disables the main window but keeps it
+          visible, with the modal window as a child window in front of it. Users
+<p>
+          In user interface design for computer applications, a modal window is
+          a graphical control element subordinate to an application's main
+          window. It creates a mode that disables the main window but keeps it
+          visible, with the modal window as a child window in front of it. Users
+          must interact with the modal window before they can return to the
+          parent application. This avoids interrupting the workflow on the main
+          window. Modal
+<button type="button" class="button" data-action="close-modal">
+          Закрити
+        </button>
+      </div>
+    </div>
 
     <button type="submit" disabled class="js-button">
       Зареєструватися як <span>Анонім</span>
@@ -62,6 +87,7 @@
     <!-- <script src="./05.12.22.js" type="module"></script> -->
     <!-- <script src="./07.12.22.js" type="module"></script> -->
     <!-- <script src="./13.12.22.js" type="module"></script> -->
-    <script src="./15.12.22.js" type="module"></script>
+    <!-- <script src="./15.12.22.js" type="module"></script> -->
+    <script src="./20.12.22.js" type="module"></script>
 </body>
 </html>
